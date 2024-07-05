@@ -1,0 +1,72 @@
+h1,
+h2,
+h3,
+.block,
+.inline,
+.grow-1,
+.grow-2,
+.shrink-1,
+.shrink-2 {
+    font-family: Tahoma;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.block {
+    display: block;
+    background-color: tomato;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inline {
+    display: inline;
+    background-color: aquamarine;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.flex-grow {
+    display: flex;
+}
+
+.grow-1 {
+    background: lightskyblue;
+    padding: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.grow-2 {
+    background: lightgoldenrodyellow;
+    padding: 10px;
+    flex-grow: 2;
+}
+
+.flex-shrink {
+    display: flex;
+}
+
+.shrink-1 {
+    background: greenyellow;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    flex-shrink: 1;
+}
+
+.shrink-2 {
+    background: orange;
+    width: 200px;
+    padding: 10px;
+    flex-shrink: 2;
+}
