@@ -1,9 +1,9 @@
 body {
-    background-color: blue;
+    background-color: #1F549F;
 }
 
 #content {
-    background-color: orange;
+    background-color: #F79405;
     margin: auto;
     width: 50%;
     padding: 20px;
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: #1F549F;
     text-shadow: 2px 2px black;
     font-family: Verdana;
     text-align: center;
@@ -34,7 +34,7 @@ img {
 }
 
 #heading {
-    color: blue;
+    color: #1F549F;
     font-size: large;
     font-family: Verdana;
 }
