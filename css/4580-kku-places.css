@@ -1,0 +1,57 @@
+body {
+    background-color: blue;
+}
+
+#content {
+    background-color: orange;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+h1 {
+    color: blue;
+    text-shadow: 2px 2px black;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 70px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+#coe {
+    display: block;
+    text-align: center;
+}
+
+#heading {
+    color: blue;
+    font-size: large;
+    font-family: Verdana;
+}
+
+li {
+    padding: 5px;
+    font-size: large;
+    font-family: Verdana;
+}
+
+.popular {
+    border-style: dotted;
+    border-color: red;
+    border-width: 4px;
+}
+
+#more {
+    font-size: large;
+    font-family: Verdana;
+}
