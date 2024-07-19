@@ -40,15 +40,15 @@
 
         main {
             display: flex;
-            flex-wrap: wrap;
         }
 
         article {
-            flex-basis: 1000px;
+            flex-basis: 70%;
             margin-left: 20px;
         }
 
         aside {
+            flex-basis: 30%;
             padding: 60px;
             margin: 10px;
             background-color: gainsboro;
@@ -71,12 +71,22 @@
                 flex-direction: column;
             }
 
+            main {
+                flex-wrap: wrap;
+            }
+
             article {
                 flex-basis: 100%;
+            }
+
+            aside {
+                flex-basis: 0;
             }
         }
 
         footer {
+            width: 100%;
+            position: fixed;
             padding: 20px;
             bottom: 0;
             text-align: center;
