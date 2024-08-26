@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 1</title>
+</head>
+
+<body>
+    <h1>Find the Larger Number</h1>
+    <p>Enter two numbers to see which is larger.</p>
+    <script>
+        let findLarger = function (num1, num2) {
+            return num1 >= num2 ? num1 : num2;
+        }
+
+        let number1 = Number(prompt("Enter the first number:"));
+        let number2 = Number(prompt("Enter the second number:"));
+        if (!isNaN(number1) && !isNaN(number2)) {
+            let largerNumber = findLarger(number1, number2);
+            document.write(`The larger number between ${number1} and ${number2} is: ${largerNumber}`);
+        } else {
+            document.write("Please enter valid numbers.");
+        }
+    </script>
+</body>
+
+</html>
