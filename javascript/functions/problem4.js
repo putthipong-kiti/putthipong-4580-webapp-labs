@@ -1,11 +1,6 @@
 function formatConversion(temperature, conversionFunction, unitLabel) {
-    if (unitLabel === "C") {
-        return `${temperature}°${unitLabel} is ${celsiusToFahrenheit(temperature)}°F`;
-    } else if (unitLabel === "F") {
-        return `${temperature}°${unitLabel} is ${fahrenheitToCelsius(temperature)}°C`;
-    } else {
-        return `I don't know the unit`;
-    }
+    let result = unitLabel === "C" ? `${temperature}°${unitLabel} is ${celsiusToFahrenheit(temperature)}°F` : `${temperature}°${unitLabel} is ${fahrenheitToCelsius(temperature)}°C`;
+    return result;
 }
 
 let celsiusToFahrenheit = temperature => ((temperature * 1.8) + 32).toFixed(2);
