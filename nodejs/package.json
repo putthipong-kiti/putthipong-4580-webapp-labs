@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "inquirer": "^11.0.2"
   }
 }
