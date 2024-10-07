@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.NavBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin: 20px
+}
+
+h3 {
+  display: inline;
+}
+
+.showHideBtn {
+  background-color: lightblue;
+}
+
+.prevBtn{
+  background-color: orange;
+}
+
+.nextBtn {
+  background-color: greenyellow;
+}
